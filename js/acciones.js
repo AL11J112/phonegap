@@ -44,12 +44,11 @@ $(document).ready(function(e) {
 		   	},"practica1","beep,vibrar,cancelar");//function confirm
 		   });//function swipe
 
-	  
-   },false);
    
 $('table td').eq(1).text(device.name);
 $('table td').eq(3).text(device.cordova);
 $('table td').eq(5).text(device.platform);
 $('table td').eq(3).text(device.version);
 $('table td').eq(3).text(device.UUID);
+},false);
 });
