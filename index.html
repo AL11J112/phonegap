@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Acciones Moviles</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#beep">Sonidos del dispositivo</a></li>
+            <li><a href="#shak">Vibracion del dispositivo</a></li>
+			<li><a href="#alert">Alerta del dispositivo</a></li>
+            <li><a href="#confirm">Confirmcion del dispositivo</a></li>
+            <li><a href="#info">Informacion del dispositivo</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Jose Eduardo Diaz Cordero</h4>
+	</div>
+</div>
+
+<div data-role="page" id="beep">
+	<div data-role="header">
+		<h1>Sonidos del dispositivo</h1>
+	</div>
+	<div data-role="listview">	
+		<li class="btn b1">1 Beep</li>
+        <li class="btn b2">2 Beeps</li>
+        <li class="btn b3">5 Beeps</li>		
+	</div>
+	<div data-role="footer">
+		<h4>Jose Eduardo Diaz Cordero</h4>
+	</div>
+</div>
+
+<div data-role="page" id="shak">
+	<div data-role="header">
+		<h1>Vibracion del dispositivo</h1>
+	</div>
+	<div data-role="content">
+     <ul data-role="controlgroup" data-type="vertical" class="localnav">	
+		<li class="btn v1"><a data-role="button">1 Vibracion</a></li>
+        <li class="btn v2"><a data-role="button">2 Vibraciones</a></li>
+     </ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Jose Eduardo Diaz Cordero</h4>
+	</div>
+</div>
+
+<div data-role="page" id="alert">
+	<div data-role="header">
+		<h1>Alerta del dispositivo</h1>
+	</div>
+	<div data-role="content">	
+	 <div id="derecha" style="width=100%;height:100px;background-color:#063;"></div>		
+	</div>
+	<div data-role="footer">
+		<h4>Jose Eduardo Diaz Cordero</h4>
+	</div>
+</div>
+
+<div data-role="page" id="confirm">
+	<div data-role="header">
+		<h1>Confirmacion del dispositivo</h1>
+	</div>
+	<div data-role="content">	
+		 <div id="izquierda" style="width=100%;height:100px;background-color:blue;"></div>		
+	</div>
+	<div data-role="footer">
+		<h4>Jose Eduardo Diaz Cordero</h4>
+	</div>
+</div>
+
+<div data-role="page" id="info">
+	<div data-role="header">
+		<h1>Informacion del dispoitivo</h1>
+	</div>
+    <div data-role="content">
+    <table width="331" border="1">
+  <tr>
+    <td width="109">Nombre</td>
+    <td width="206">&nbsp;</td>
+
+  </tr>
+  <tr>
+    <td>Phonegap</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>Platforma</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>Vresion</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>UUID</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+    </div>
+</body>
+</html>
